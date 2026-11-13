@@ -1,0 +1,28 @@
+{
+  "algorithm": "sha256",
+  "source_commit": "51337032503c56e3a28ef646a24aa016782e1bd3",
+  "files": {
+    ".gitignore": "2c33eebe4d74803cbcf1a372ac21085a67f210d3d260bd56d8b7a7584f44ede4",
+    "README.md": "fb4b8bddc32a11851840239a2543a46c06ed63d11c3844e7c6ccfe4d10e5cddc",
+    "evidence/manual_ndcg_check.json": "6a7f58ad5434073434c1ce95cf9669121283baf9a8ce369ec684e7f4c9d2d69b",
+    "evidence/manual_ndcg_check.md": "f0bd091ea321945481abafa9323dfb9d70f1db814ba112597bbdd084ba054884",
+    "evidence/source_snapshot_check.json": "27479eef4785e5c2696caa6be4ec72c54df8497925465d3910c3106ac86d3f1e",
+    "frozen_outputs/metrics.json": "00b3e21d12bb3c99c3baffdaa2a252c94695d837aaa3b51dc34e86f50911213f",
+    "frozen_outputs/per_user.csv": "e7170d42843d3b35bc98284aad0f184f6d5e465e62b3484242f61fad147adee1",
+    "frozen_outputs/predictions.csv": "e556792baafe109db154bd1e89cbc7ea7a9f113f24d4d0690584f77393bf4014",
+    "frozen_outputs/protocol.json": "df787347c013740822aeaa2ea17688e975fe46f608f14aea53235ac76fe58f99",
+    "package_check.json": "30d71b718f262e01bb8c33c8cfd615bc47c3e190fd67e471238bc653359123b5",
+    "reproduce.py": "028ba9539d21ae627041d9578a91d091601e570a4c3a61d2d9bd61b10879a438",
+    "source/.gitignore": "9c456382c50e3c2324cb63703c58a05839a4055dc0ea3e340dac35e1035ba39e",
+    "source/ANNOUNCEMENT.md": "ba8311c2122df3e6dd36f4983c5e378fd6fbbf37d476edf9136e91902c4bbe1b",
+    "source/README.md": "b9877fc3c59c44db1dfa4f0374992c60b9e5adefcf67b32ae09c17b27e9b610e",
+    "source/extensions.py": "c80ddbe27846d2f0ca49ce4a66365f4951db2a226b141f5ce1b3b3fdc94114a9",
+    "source/instructions/homework1.md": "b888101735338b5509f20ed70683148619c0e5f990a59d9684d5e2f2b467a24e",
+    "source/instructions/homework2.md": "db54539a1cdbd112a5daa5a53b50dd743df3ad7ef3f0ddd41204b6bc810ea835",
+    "source/instructions/project_FKN.md": "0f60a7382e2db74a33ce92ca65a941fa08fd278ca870aa8f8aa04a5d77056d43",
+    "source/instructions/project_GSB_AVITO.md": "410610fe7c8ba77ed6ee1055595211fcd92728a78fa9e34a373e8cb83e1ca6f0",
+    "source/starter.py": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+    "source/test_starter.py": "a3a86f98d67f2416a99b1ea70e495ab3b82b3a1e5a8f4a908f0a6bae8e53d1c1",
+    "study_plan.md": "01ee91bdac271541d911795a47cee5b01f60a1897e76c7bb45055da313df001d"
+  }
+}

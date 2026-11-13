@@ -1,0 +1,21 @@
+{
+  "frozen_label_check": {
+    "max_tolerance": 1e-12,
+    "per_user_rows_checked": 400
+  },
+  "mode": "replay",
+  "raw_csv_sha256_verified": {
+    "asset_information.csv": "33f9897b14087068fba53a0bc9e24a0031b096bd3ad3e977e534153f29b7a590",
+    "close_prices.csv": "6ba1fe8390b31dfb3ab4e3e824910f9e8da4684cb6074cdb82eb6422a323656d",
+    "customer_information.csv": "c4ad52ebca90e32bf3df5eb64f362b7a3437b77d978b22627cc46927fe7064af",
+    "transactions.csv": "358871fa1311a802799df86e56c3d633513566965b01412d058e0f8fbe6cd54b"
+  },
+  "replay": {
+    "metrics_matched_within_tolerance": true,
+    "metrics_tolerance": 1e-12,
+    "per_user_rows_checked": 400,
+    "prediction_rows_not_compared": true,
+    "protocol_matched": true,
+    "rerun_output_dir": "package_replay/rerun_outputs"
+  }
+}

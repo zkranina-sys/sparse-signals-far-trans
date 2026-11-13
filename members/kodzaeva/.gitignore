@@ -1,0 +1,19 @@
+# Public inputs are downloaded from their attributed release.
+raw/
+data/
+output/
+package_replay/
+package_verify/
+verify_output/
+replay_output/
+__pycache__/
+*.pyc
+# AI-session exports and event streams are submitted separately.
+logs/
+*session*.json
+*session*.jsonl
+opencode*.jsonl
+*.stderr.log
+# Keep protocol.json, metrics.json and evidence JSON versioned.
+replay_check.json
+verify_check.json
