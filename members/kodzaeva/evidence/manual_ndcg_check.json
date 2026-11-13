@@ -1,0 +1,145 @@
+{
+  "user_id": "5087D23F907F90F3DDD1",
+  "method": "cbf",
+  "distinct_retained_historical_assets": 5,
+  "prediction_source": "frozen_outputs/predictions.csv",
+  "actual_purchase_source": "FAR-Trans/transactions.csv from the official raw archive; the reproducer extracts it under the chosen output directory/work/",
+  "protocol_source": "frozen_outputs/protocol.json",
+  "protocol_hash": "50efd4aeb415ba6f0c66dd0793a7c2033cdc32a42b86b58eebbca3e81eaf3417",
+  "cutoff_inclusive": "2021-06-01",
+  "end_exclusive": "2021-07-01",
+  "raw_csv_sha256": "358871fa1311a802799df86e56c3d633513566965b01412d058e0f8fbe6cd54b",
+  "protocol_recorded_raw_sha256": "358871fa1311a802799df86e56c3d633513566965b01412d058e0f8fbe6cd54b",
+  "repeat_purchases_allowed": true,
+  "future_purchase_records": [
+    {
+      "line_number": 85882,
+      "record": {
+        "customerID": "5087D23F907F90F3DDD1",
+        "ISIN": "GRS003003035",
+        "transactionID": "9049523",
+        "transactionType": "Buy",
+        "timestamp": "2021-06-08",
+        "totalValue": "996.41",
+        "units": "370.0",
+        "channel": "Phone Banking",
+        "marketID": "XATH"
+      },
+      "raw_csv_line": "5087D23F907F90F3DDD1,GRS003003035,9049523,Buy,2021-06-08,996.41,370.0,Phone Banking,XATH"
+    }
+  ],
+  "excluded_window_records": [],
+  "relevant_asset_set": [
+    "GRS003003035"
+  ],
+  "predictions": [
+    {
+      "rank": 1,
+      "ISIN": "GRS117123000",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2732
+    },
+    {
+      "rank": 2,
+      "ISIN": "GRS118003003",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2733
+    },
+    {
+      "rank": 3,
+      "ISIN": "GRS224003004",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2734
+    },
+    {
+      "rank": 4,
+      "ISIN": "GRS314003005",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2735
+    },
+    {
+      "rank": 5,
+      "ISIN": "GRS371113002",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2736
+    },
+    {
+      "rank": 6,
+      "ISIN": "GRS385113006",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2737
+    },
+    {
+      "rank": 7,
+      "ISIN": "GRS438003006",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2738
+    },
+    {
+      "rank": 8,
+      "ISIN": "GRS469003024",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2739
+    },
+    {
+      "rank": 9,
+      "ISIN": "100974271034",
+      "hit": 0,
+      "dcg_term": 0.0,
+      "predictions_csv_line": 2740
+    },
+    {
+      "rank": 10,
+      "ISIN": "GRS003003035",
+      "hit": 1,
+      "dcg_term": 0.2890648263178879,
+      "predictions_csv_line": 2741
+    }
+  ],
+  "hit_positions": [
+    10
+  ],
+  "dcg_terms": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2890648263178879
+  ],
+  "dcg_at_10": 0.2890648263178879,
+  "ideal_terms": [
+    1.0
+  ],
+  "idcg_at_10": 1.0,
+  "ndcg_at_10": 0.2890648263178879,
+  "stored_per_user": {
+    "line_number": 275,
+    "record": {
+      "user_id": "5087D23F907F90F3DDD1",
+      "method": "cbf",
+      "relevant_count": "1",
+      "ndcg_at_10": "0.2890648263178879"
+    }
+  },
+  "absolute_error": 0.0,
+  "verification_scope": {
+    "student_arithmetic_checked": true,
+    "student_displayed_extract_match_checked": true,
+    "student_full_csv_reprocessing_claimed": false,
+    "raw_csv_provenance_and_truth_completeness_checked_by": "AI-assisted independent validation"
+  },
+  "stored_per_user_source": "frozen_outputs/per_user.csv"
+}

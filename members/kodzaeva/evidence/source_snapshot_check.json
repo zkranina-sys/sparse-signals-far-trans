@@ -1,0 +1,38 @@
+{
+  "repository": "https://github.com/dryjins/RecSys-LLMs",
+  "commit": "51337032503c56e3a28ef646a24aa016782e1bd3",
+  "reference4_url": "https://github.com/dryjins/RecSys-LLMs/tree/51337032503c56e3a28ef646a24aa016782e1bd3/project/far-trans",
+  "source_snapshot": [
+    {
+      "file": ".gitignore",
+      "sha256": "9c456382c50e3c2324cb63703c58a05839a4055dc0ea3e340dac35e1035ba39e",
+      "matches_pinned_git_object": true
+    },
+    {
+      "file": "ANNOUNCEMENT.md",
+      "sha256": "ba8311c2122df3e6dd36f4983c5e378fd6fbbf37d476edf9136e91902c4bbe1b",
+      "matches_pinned_git_object": true
+    },
+    {
+      "file": "README.md",
+      "sha256": "b9877fc3c59c44db1dfa4f0374992c60b9e5adefcf67b32ae09c17b27e9b610e",
+      "matches_pinned_git_object": true
+    },
+    {
+      "file": "extensions.py",
+      "sha256": "c80ddbe27846d2f0ca49ce4a66365f4951db2a226b141f5ce1b3b3fdc94114a9",
+      "matches_pinned_git_object": true
+    },
+    {
+      "file": "starter.py",
+      "sha256": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+      "matches_pinned_git_object": true
+    },
+    {
+      "file": "test_starter.py",
+      "sha256": "a3a86f98d67f2416a99b1ea70e495ab3b82b3a1e5a8f4a908f0a6bae8e53d1c1",
+      "matches_pinned_git_object": true
+    }
+  ],
+  "all_source_files_match_pinned_commit": true
+}
