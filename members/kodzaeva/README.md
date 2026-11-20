@@ -1,3 +1,7 @@
+**HW2 / Session 2 (ДЗ 8):** [реальный history-weight Encoder, код и агрегированные результаты](hw2/).
+
+**Снимок Session 1 / ДЗ 7:** содержание ниже относится к состоянию на 13 ноября 2026 года. Формулировка «LLM не запускалась» описывает этот прежний этап; актуальный выполненный эксперимент находится по ссылке выше.
+
 # Maria Kodzaeva — Session 1: History-Weight Encoder
 
 Team: **Sparse Signals**. Project: *Filling the Gaps: Where LLMs Improve a Repeat-Purchase Recommender on FAR-Trans*.
