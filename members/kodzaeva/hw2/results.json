@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "experiment_date": "2026-11-20",
+  "author": "Maria Kodzaeva",
+  "team": "Sparse Signals",
+  "scope": "Individual HW8 / Session2 teaching pilot; purchase relevance, not investment suitability or profit.",
+  "protocol": {
+    "cutoff": "2021-06-01",
+    "end_exclusive": "2021-07-01",
+    "users": 100,
+    "users_with_future_purchases": 11,
+    "eligible_asset_count": 767,
+    "repeat_purchases_allowed": true,
+    "empty_truth_score": 0,
+    "k": 10,
+    "candidate_count": 50,
+    "cohort": "deterministic warm sample from supplied starter",
+    "predeclared_history_4plus": {
+      "users": 37,
+      "users_with_future_purchases": 10
+    },
+    "protocol_hash": "50efd4aeb415ba6f0c66dd0793a7c2033cdc32a42b86b58eebbca3e81eaf3417",
+    "source_sha256": {
+      "transactions.csv": "358871fa1311a802799df86e56c3d633513566965b01412d058e0f8fbe6cd54b",
+      "asset_information.csv": "33f9897b14087068fba53a0bc9e24a0031b096bd3ad3e977e534153f29b7a590",
+      "customer_information.csv": "c4ad52ebca90e32bf3df5eb64f362b7a3437b77d978b22627cc46927fe7064af",
+      "close_prices.csv": "6ba1fe8390b31dfb3ab4e3e824910f9e8da4684cb6074cdb82eb6422a323656d"
+    }
+  },
+  "methods": {
+    "cbf": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.020100011736078574,
+      "ndcg_at_10_nonempty": 0.18272737941889614,
+      "kind": "provided_classical_baseline"
+    },
+    "latest_buy": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.027722649787649066,
+      "ndcg_at_10_nonempty": 0.2520240889786279,
+      "kind": "provided_classical_baseline"
+    },
+    "latest_buy_or_sell": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.027107048693904026,
+      "ndcg_at_10_nonempty": 0.2464277153991275,
+      "kind": "provided_classical_baseline"
+    },
+    "popularity": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.028590012799467643,
+      "ndcg_at_10_nonempty": 0.25990920726788763,
+      "kind": "provided_classical_baseline"
+    },
+    "llm_encoder_cbf": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.02187240460391905,
+      "ndcg_at_10_nonempty": 0.19884004185380955,
+      "kind": "primary_open_weight_encoder",
+      "failed_cases": 0
+    },
+    "uniform_posthoc": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.019213162331209635,
+      "ndcg_at_10_nonempty": 0.1746651121019058,
+      "kind": "posthoc_non_llm_diagnostic",
+      "failed_cases": 0
+    },
+    "sqrt_count_posthoc": {
+      "users": 100,
+      "nonempty_truth_users": 11,
+      "empty_truth_users": 89,
+      "ndcg_at_10": 0.022440769463369162,
+      "ndcg_at_10_nonempty": 0.20400699512153783,
+      "kind": "posthoc_non_llm_diagnostic",
+      "failed_cases": 0
+    }
+  },
+  "model": {
+    "repository": "Qwen/Qwen2.5-3B-Instruct",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "license": "qwen-research",
+    "hardware": {
+      "chip": "Apple M4",
+      "memory_gb": 16,
+      "device": "mps",
+      "dtype": "float16"
+    },
+    "dependencies": {
+      "python": "3.12.14",
+      "torch": "2.11.0",
+      "transformers": "4.57.6"
+    },
+    "generation_settings": {
+      "device": "mps",
+      "do_sample": false,
+      "dtype": "float16",
+      "local_files_only": true,
+      "max_new_tokens": 512,
+      "seed": 42,
+      "trust_remote_code": false,
+      "repetition_penalty": 1.05
+    },
+    "history_fields": [
+      "buy_count",
+      "assetCategory",
+      "assetSubCategory",
+      "sector",
+      "industry",
+      "marketID"
+    ],
+    "input_policy": "Full retained historical Buy assets with temporary history keys; no direct customer IDs/ISINs/names/profile/candidates/future labels in model prompt."
+  },
+  "generation_summary": {
+    "subgroup_profiles": 37,
+    "unique_model_calls": 37,
+    "pilot_calls": 3,
+    "new_full_calls": 34,
+    "full_reused": 3,
+    "identity_outside_subgroup": 63,
+    "failed_users": 0,
+    "valid_profile_outputs": 37
+  },
+  "timing_seconds": {
+    "baseline_four_methods_whole_process_seconds": 2.659189832998891,
+    "change_five_methods_whole_process_seconds": 2.8797273329983,
+    "pilot_process_seconds": 46.9313304999996,
+    "full_process_seconds": 305.07582145799825,
+    "generation_seconds_unique_calls": 303.6186566640099,
+    "model_download_seconds": 666.3633675839992,
+    "scope_note": "Per-method classical timing was not measured. Generation sum includes pilot once; full-run cache hits have zero new generation time. Process sums include two model loads/setup/hashing and identity users.",
+    "uniform_control_whole_process": 2.7110940419988765,
+    "sqrt_control_whole_process": 2.7534006669993687
+  },
+  "interpretation": {
+    "primary_llm_vs_cbf_paired_gain_all_users": 0.0017723928678404777,
+    "llm_vs_cbf_improved_users": 1,
+    "llm_vs_cbf_worsened_users": 0,
+    "changed_relative_weight_profiles": 13,
+    "changed_top10_lists": 9,
+    "caveat": "The LLM gain over count-CBF is concentrated in one user. It remains below three supplied baselines and below the post-hoc sqrt-count control. This pilot does not establish a robust LLM advantage. Uniform and sqrt controls were selected after primary results, not preregistered."
+  },
+  "submission_note": "Individual PDF and authentic AI-session export are submitted separately; this public package intentionally excludes user-level data, model prompts/responses, predictions, protocol user lists, AI logs and private evidence."
+}

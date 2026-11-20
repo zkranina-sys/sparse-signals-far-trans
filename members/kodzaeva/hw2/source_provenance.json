@@ -1,0 +1,35 @@
+{
+  "upstream_repository": "https://github.com/dryjins/RecSys-LLMs",
+  "upstream_commit": "799e54c0493cf7e2b014152548ae5c18ee24a8f5",
+  "source_directory": "project/far-trans",
+  "copied_unchanged": true,
+  "source_file_sha256": {
+    ".gitignore": "9c456382c50e3c2324cb63703c58a05839a4055dc0ea3e340dac35e1035ba39e",
+    "ANNOUNCEMENT.md": "ba8311c2122df3e6dd36f4983c5e378fd6fbbf37d476edf9136e91902c4bbe1b",
+    "README.md": "78da4cab57b1c6ba96bd177fffefaaa47cc60fcd53de2682e304ae371f004735",
+    "extensions.py": "c80ddbe27846d2f0ca49ce4a66365f4951db2a226b141f5ce1b3b3fdc94114a9",
+    "instructions/homework1.md": "b888101735338b5509f20ed70683148619c0e5f990a59d9684d5e2f2b467a24e",
+    "instructions/homework2.md": "2d3a90d560492de7cf5f460a6f835fcba01c24481c1a6e745c2cc4c781a7a8bb",
+    "instructions/homework3.md": "c6d9fa3cfc78e93088a400a0dc11c9186d4a22a5c47453d6b72bfd02390e4803",
+    "instructions/project_FKN.md": "0f60a7382e2db74a33ce92ca65a941fa08fd278ca870aa8f8aa04a5d77056d43",
+    "instructions/project_GSB_AVITO.md": "410610fe7c8ba77ed6ee1055595211fcd92728a78fa9e34a373e8cb83e1ca6f0",
+    "starter.py": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+    "test_starter.py": "a3a86f98d67f2416a99b1ea70e495ab3b82b3a1e5a8f4a908f0a6bae8e53d1c1"
+  },
+  "execution_files_copied_unchanged": {
+    "src/history_encoder.py": "093f92b2828c5d4b19e24af9e05d10c9502f5657028bab53dd5a45156ee212b9",
+    "src/download_model.py": "89757ec3125443a14ca1765e39c800cdf857b74b92275dff2891df39c8ade366",
+    "src/sqrt_encoder.py": "2cb6943b365845f7b4c47355470fad8462934ad12bdca4d05a8b990d0702f31f",
+    "src/uniform_encoder.py": "75b486f01976e3f749b89a7af7dee45a9cec6ce22d6bd9c4c7a847d8681e6a13",
+    "src/test_history_encoder.py": "fc87d640605a6d90c31ebdabe05fac0943da2633f9f3605f5acb7678d9221ac4",
+    "src/run_logged.py": "f4e42fb46a754f0535a271eb397a15000bb3d74ee9bfb8b277573a8e12afce95"
+  },
+  "data_release_url": "https://researchdata.gla.ac.uk/1658/",
+  "data_source_sha256": {
+    "transactions.csv": "358871fa1311a802799df86e56c3d633513566965b01412d058e0f8fbe6cd54b",
+    "asset_information.csv": "33f9897b14087068fba53a0bc9e24a0031b096bd3ad3e977e534153f29b7a590",
+    "customer_information.csv": "c4ad52ebca90e32bf3df5eb64f362b7a3437b77d978b22627cc46927fe7064af",
+    "close_prices.csv": "6ba1fe8390b31dfb3ab4e3e824910f9e8da4684cb6074cdb82eb6422a323656d"
+  },
+  "note": "Starter attribution remains with the upstream author. Custom implementation and checks were prepared with disclosed AI assistance. No publication commit is claimed here."
+}

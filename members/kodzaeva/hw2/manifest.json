@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "files_sha256": {
+    ".gitignore": "54e03b162bc605c572a8e38c36d2131196b82367a63391c358b5e0160da06013",
+    "README.md": "132c59cb337d626dbdadc06b83328680daf3b48d8c5ed9cbd066a012c0b7fd29",
+    "checks/check_encoder_effect.py": "e0fdb9478b4169a5e48225f6183f737772a22f745ebd8e53d26a4168a1d09654",
+    "checks/verify_outputs_independent.py": "29ebfb6b2ceffeb3ea4d0a689eaac0211a719baeb8cc11a4d0295f3a3a7cfe63",
+    "requirements.lock.txt": "528ade337bae8e138d020b7e9bc67a19e4b4d38f791a517e08c7dc55490b349a",
+    "results.json": "c48c2b15e714086a19980a5ce0b5db6227cd2aa03db7a604153486beb4f01161",
+    "source/.gitignore": "9c456382c50e3c2324cb63703c58a05839a4055dc0ea3e340dac35e1035ba39e",
+    "source/ANNOUNCEMENT.md": "ba8311c2122df3e6dd36f4983c5e378fd6fbbf37d476edf9136e91902c4bbe1b",
+    "source/README.md": "78da4cab57b1c6ba96bd177fffefaaa47cc60fcd53de2682e304ae371f004735",
+    "source/extensions.py": "c80ddbe27846d2f0ca49ce4a66365f4951db2a226b141f5ce1b3b3fdc94114a9",
+    "source/instructions/homework1.md": "b888101735338b5509f20ed70683148619c0e5f990a59d9684d5e2f2b467a24e",
+    "source/instructions/homework2.md": "2d3a90d560492de7cf5f460a6f835fcba01c24481c1a6e745c2cc4c781a7a8bb",
+    "source/instructions/homework3.md": "c6d9fa3cfc78e93088a400a0dc11c9186d4a22a5c47453d6b72bfd02390e4803",
+    "source/instructions/project_FKN.md": "0f60a7382e2db74a33ce92ca65a941fa08fd278ca870aa8f8aa04a5d77056d43",
+    "source/instructions/project_GSB_AVITO.md": "410610fe7c8ba77ed6ee1055595211fcd92728a78fa9e34a373e8cb83e1ca6f0",
+    "source/starter.py": "c19b21adeb824737d09835fb5b8818e2d310fee83e5af909eaf8897ea1705b24",
+    "source/test_starter.py": "a3a86f98d67f2416a99b1ea70e495ab3b82b3a1e5a8f4a908f0a6bae8e53d1c1",
+    "source_provenance.json": "b6f1210dba39f68098d719234b1dc8952b5f40da155b19b53ad6264ad352dcc2",
+    "src/download_model.py": "89757ec3125443a14ca1765e39c800cdf857b74b92275dff2891df39c8ade366",
+    "src/history_encoder.py": "093f92b2828c5d4b19e24af9e05d10c9502f5657028bab53dd5a45156ee212b9",
+    "src/run_logged.py": "f4e42fb46a754f0535a271eb397a15000bb3d74ee9bfb8b277573a8e12afce95",
+    "src/sqrt_encoder.py": "2cb6943b365845f7b4c47355470fad8462934ad12bdca4d05a8b990d0702f31f",
+    "src/test_history_encoder.py": "fc87d640605a6d90c31ebdabe05fac0943da2633f9f3605f5acb7678d9221ac4",
+    "src/uniform_encoder.py": "75b486f01976e3f749b89a7af7dee45a9cec6ce22d6bd9c4c7a847d8681e6a13"
+  },
+  "public_package_checks": {
+    "copied_starter_files_match": 11,
+    "copied_execution_files_match": 6,
+    "actual_customer_identifiers_found": 0,
+    "credential_like_tokens_found": 0,
+    "private_absolute_paths_found": 0,
+    "generated_user_level_or_binary_artifacts_found": 0,
+    "starter_tests_passed": 58,
+    "encoder_model_free_tests_passed": 4,
+    "cli_help_checks_passed": 3,
+    "new_model_inference_in_public_package_check": false
+  },
+  "note": "Manifest excludes itself and ignored __pycache__. Only aggregate results are published. Verification describes the packaged files, not student personal checks."
+}
