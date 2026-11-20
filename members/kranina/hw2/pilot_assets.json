@@ -1,0 +1,122 @@
+{
+  "created_before_generation": true,
+  "purpose": "HW2 pilot: p_para vs p_infer on 20 assets, no metrics",
+  "seed": "hw2-pilot-v1",
+  "hash": "sha256(seed + \":\" + ISIN), ascending hex digest",
+  "rule": "From eligible assets at cutoff with empty sector OR industry, group by assetCategory; quotas MTF=7, Stock=7, Bond=6. Force-include GRF000025004 (MTF) and BMG375851091 (Stock); fill remaining slots per category in ascending sha256(seed:ISIN) order. Never re-sort after viewing any generation output.",
+  "cutoff": "2021-06-01",
+  "horizon_days": 30,
+  "quotas": {
+    "MTF": 7,
+    "Stock": 7,
+    "Bond": 6
+  },
+  "forced_asset_ids": [
+    "GRF000025004",
+    "BMG375851091"
+  ],
+  "asset_ids": [
+    "BMG375851091",
+    "ES0000012A89",
+    "ES0000012F43",
+    "GR0114032577",
+    "GRF000025004",
+    "GRF000093002",
+    "GRS090106006",
+    "GRS201003019",
+    "GRS299003004",
+    "GRS398161000",
+    "GRS445003007",
+    "IE00B4S3JD47",
+    "IE00BM67HQ30",
+    "LU0055631609",
+    "LU0072462426",
+    "LU0171305526",
+    "LU0823417810",
+    "US4642882579",
+    "US912828U733",
+    "XS1227247191"
+  ],
+  "assets": {
+    "BMG375851091": {
+      "name": "Gaslog Ltd.",
+      "category": "Stock"
+    },
+    "ES0000012A89": {
+      "name": "Spain",
+      "category": "Bond"
+    },
+    "ES0000012F43": {
+      "name": "Spain",
+      "category": "Bond"
+    },
+    "GR0114032577": {
+      "name": "Greece",
+      "category": "Bond"
+    },
+    "GRF000025004": {
+      "name": "DELUBFB Delos USD Bond Fund",
+      "category": "MTF"
+    },
+    "GRF000093002": {
+      "name": "DELOS GREEK GROW-DOMEST BOND",
+      "category": "MTF"
+    },
+    "GRS090106006": {
+      "name": "N. LEVEDERIS S.A.  (PB)",
+      "category": "Stock"
+    },
+    "GRS201003019": {
+      "name": "SELONDA AQUACULTURE S.A. (CR)",
+      "category": "Stock"
+    },
+    "GRS299003004": {
+      "name": "PERSEUS S.A. (CR)",
+      "category": "Stock"
+    },
+    "GRS398161000": {
+      "name": "GEKE S.A. (CB)",
+      "category": "Stock"
+    },
+    "GRS445003007": {
+      "name": "DIAGNOSTICANDTHERAPEUTIC CENTER OF ATHENS YGEIA (C",
+      "category": "Stock"
+    },
+    "IE00B4S3JD47": {
+      "name": "Ireland IRGB 3.9% 20/03/2023",
+      "category": "Bond"
+    },
+    "IE00BM67HQ30": {
+      "name": "Xtrackers MSCI World Utilities UCITS ETF 1C | XDWU",
+      "category": "MTF"
+    },
+    "LU0055631609": {
+      "name": "BlackRock Global Funds - World Gold Fund A2",
+      "category": "Stock"
+    },
+    "LU0072462426": {
+      "name": "BlackRock Global Funds - Global Allocation Fund A2",
+      "category": "MTF"
+    },
+    "LU0171305526": {
+      "name": "BlackRock Global Funds - World Gold Fund A2 (EUR)",
+      "category": "MTF"
+    },
+    "LU0823417810": {
+      "name": "BNP Paribas Funds Sustainable Global Low Vol Equity Classic Capitalisation",
+      "category": "MTF"
+    },
+    "US4642882579": {
+      "name": "",
+      "category": "MTF"
+    },
+    "US912828U733": {
+      "name": "USA",
+      "category": "Bond"
+    },
+    "XS1227247191": {
+      "name": "Cyprus",
+      "category": "Bond"
+    }
+  }
+}

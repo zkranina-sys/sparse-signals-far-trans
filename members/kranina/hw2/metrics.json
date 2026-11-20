@@ -1,0 +1,175 @@
+{
+  "protocol_hash": "50efd4aeb415ba6f0c66dd0793a7c2033cdc32a42b86b58eebbca3e81eaf3417",
+  "methods": {
+    "cbf": {
+      "all": {
+        "users": 100,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 89,
+        "ndcg_at_10": 0.020100011736078574,
+        "ndcg_at_10_nonempty": 0.18272737941889614
+      },
+      "nonempty": {
+        "users": 11,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.18272737941889614,
+        "ndcg_at_10_nonempty": 0.18272737941889614
+      },
+      "group": {
+        "users": 54,
+        "nonempty_truth_users": 8,
+        "empty_truth_users": 46,
+        "ndcg_at_10": 0.025867666311896274,
+        "ndcg_at_10_nonempty": 0.17460674760529984
+      },
+      "ndcg_at_10": 0.020100011736078574
+    },
+    "latest_buy": {
+      "all": {
+        "users": 100,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 89,
+        "ndcg_at_10": 0.027722649787649066,
+        "ndcg_at_10_nonempty": 0.2520240889786279
+      },
+      "nonempty": {
+        "users": 11,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.2520240889786279,
+        "ndcg_at_10_nonempty": 0.2520240889786279
+      },
+      "group": {
+        "users": 54,
+        "nonempty_truth_users": 8,
+        "empty_truth_users": 46,
+        "ndcg_at_10": 0.03509351228568255,
+        "ndcg_at_10_nonempty": 0.23688120792835718
+      },
+      "ndcg_at_10": 0.027722649787649066
+    },
+    "latest_buy_or_sell": {
+      "all": {
+        "users": 100,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 89,
+        "ndcg_at_10": 0.027107048693904026,
+        "ndcg_at_10_nonempty": 0.2464277153991275
+      },
+      "nonempty": {
+        "users": 11,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.2464277153991275,
+        "ndcg_at_10_nonempty": 0.2464277153991275
+      },
+      "group": {
+        "users": 54,
+        "nonempty_truth_users": 8,
+        "empty_truth_users": 46,
+        "ndcg_at_10": 0.03395351026022877,
+        "ndcg_at_10_nonempty": 0.22918619425654418
+      },
+      "ndcg_at_10": 0.027107048693904026
+    },
+    "original_text_cbf": {
+      "all": {
+        "users": 100,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 89,
+        "ndcg_at_10": 0.023542084151329593,
+        "ndcg_at_10_nonempty": 0.21401894683026904
+      },
+      "nonempty": {
+        "users": 11,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.21401894683026904,
+        "ndcg_at_10_nonempty": 0.21401894683026904
+      },
+      "group": {
+        "users": 54,
+        "nonempty_truth_users": 8,
+        "empty_truth_users": 46,
+        "ndcg_at_10": 0.03791916331018945,
+        "ndcg_at_10_nonempty": 0.2559543523437788
+      },
+      "ndcg_at_10": 0.023542084151329593
+    },
+    "p_infer": {
+      "all": {
+        "users": 100,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 89,
+        "ndcg_at_10": 0.029217691799257435,
+        "ndcg_at_10_nonempty": 0.2656153799932494
+      },
+      "nonempty": {
+        "users": 11,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.2656153799932494,
+        "ndcg_at_10_nonempty": 0.2656153799932494
+      },
+      "group": {
+        "users": 54,
+        "nonempty_truth_users": 8,
+        "empty_truth_users": 46,
+        "ndcg_at_10": 0.04694289579057781,
+        "ndcg_at_10_nonempty": 0.31686454658640023
+      },
+      "ndcg_at_10": 0.029217691799257435
+    },
+    "p_para": {
+      "all": {
+        "users": 100,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 89,
+        "ndcg_at_10": 0.02676215851635977,
+        "ndcg_at_10_nonempty": 0.24329235014872516
+      },
+      "nonempty": {
+        "users": 11,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.24329235014872516,
+        "ndcg_at_10_nonempty": 0.24329235014872516
+      },
+      "group": {
+        "users": 54,
+        "nonempty_truth_users": 8,
+        "empty_truth_users": 46,
+        "ndcg_at_10": 0.043882263986171254,
+        "ndcg_at_10_nonempty": 0.29620528190665596
+      },
+      "ndcg_at_10": 0.02676215851635977
+    },
+    "popularity": {
+      "all": {
+        "users": 100,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 89,
+        "ndcg_at_10": 0.028590012799467643,
+        "ndcg_at_10_nonempty": 0.25990920726788763
+      },
+      "nonempty": {
+        "users": 11,
+        "nonempty_truth_users": 11,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.25990920726788763,
+        "ndcg_at_10_nonempty": 0.25990920726788763
+      },
+      "group": {
+        "users": 54,
+        "nonempty_truth_users": 8,
+        "empty_truth_users": 46,
+        "ndcg_at_10": 0.0439849703107405,
+        "ndcg_at_10_nonempty": 0.2968985495974984
+      },
+      "ndcg_at_10": 0.028590012799467643
+    }
+  },
+  "fallback_counts": {},
+  "note": "Offline purchase relevance; no generated answer is removed."
+}
