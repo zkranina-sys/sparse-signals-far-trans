@@ -1,0 +1,199 @@
+{
+  "protocol_hash": "12ccb71cd29f052609c79e7a5f5bd5137238fe6f0196802983a75178a8f83759",
+  "methods": {
+    "cbf": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.02855316923423279,
+        "ndcg_at_10_nonempty": 0.25217926376312216
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.25217926376312216,
+        "ndcg_at_10_nonempty": 0.25217926376312216
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.03492412084408127,
+        "ndcg_at_10_nonempty": 0.24291857667258013
+      },
+      "ndcg_at_10": 0.02855316923423279
+    },
+    "latest_buy": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.05263282198045577,
+        "ndcg_at_10_nonempty": 0.4648487944691526
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.4648487944691526,
+        "ndcg_at_10_nonempty": 0.4648487944691526
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.06740854171129412,
+        "ndcg_at_10_nonempty": 0.4688675509166586
+      },
+      "ndcg_at_10": 0.05263282198045577
+    },
+    "latest_buy_or_sell": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.05091088560550385,
+        "ndcg_at_10_nonempty": 0.44964079273315966
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.44964079273315966,
+        "ndcg_at_10_nonempty": 0.44964079273315966
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.06523069697074574,
+        "ndcg_at_10_nonempty": 0.4537193114820921
+      },
+      "ndcg_at_10": 0.05091088560550385
+    },
+    "original_text_cbf": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.04193109517669508,
+        "ndcg_at_10_nonempty": 0.3703320154654801
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.3703320154654801,
+        "ndcg_at_10_nonempty": 0.3703320154654801
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.05277462273797868,
+        "ndcg_at_10_nonempty": 0.367079712533832
+      },
+      "ndcg_at_10": 0.04193109517669508
+    },
+    "p_infer": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.0427170771126407,
+        "ndcg_at_10_nonempty": 0.37727374387089463
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.37727374387089463,
+        "ndcg_at_10_nonempty": 0.37727374387089463
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.053708986089334,
+        "ndcg_at_10_nonempty": 0.3735787799382652
+      },
+      "ndcg_at_10": 0.0427170771126407
+    },
+    "p_para": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.042378175384288716,
+        "ndcg_at_10_nonempty": 0.3742805914245669
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.3742805914245669,
+        "ndcg_at_10_nonempty": 0.3742805914245669
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.05299302369932715,
+        "ndcg_at_10_nonempty": 0.36859882452269355
+      },
+      "ndcg_at_10": 0.042378175384288716
+    },
+    "p_rule": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.04233776472899554,
+        "ndcg_at_10_nonempty": 0.3739236878102458
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.3739236878102458,
+        "ndcg_at_10_nonempty": 0.3739236878102458
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.05300284915394733,
+        "ndcg_at_10_nonempty": 0.36866716655661763
+      },
+      "ndcg_at_10": 0.04233776472899554
+    },
+    "popularity": {
+      "all": {
+        "users": 10404,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 9226,
+        "ndcg_at_10": 0.026172888075933286,
+        "ndcg_at_10_nonempty": 0.2311568145517911
+      },
+      "nonempty": {
+        "users": 1178,
+        "nonempty_truth_users": 1178,
+        "empty_truth_users": 0,
+        "ndcg_at_10": 0.2311568145517911,
+        "ndcg_at_10_nonempty": 0.2311568145517911
+      },
+      "group": {
+        "users": 5641,
+        "nonempty_truth_users": 811,
+        "empty_truth_users": 4830,
+        "ndcg_at_10": 0.03795408028711349,
+        "ndcg_at_10_nonempty": 0.2639937939575921
+      },
+      "ndcg_at_10": 0.026172888075933286
+    }
+  },
+  "fallback_counts": {},
+  "note": "Development results on all warm users; offline purchase relevance."
+}

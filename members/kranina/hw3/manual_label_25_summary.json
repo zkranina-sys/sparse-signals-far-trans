@@ -1,0 +1,63 @@
+{
+  "source": "student labels, 2026-11-26; Claude consistency check; UBS row changed from верно to неверно",
+  "grouping": "by column пустые поля: group A has sector or industry listed as empty; group B is all others",
+  "total_assets": 25,
+  "groups": {
+    "empty_sector_or_industry": {
+      "assets": 10,
+      "labels": {
+        "верно": 2,
+        "без изменений": 5,
+        "выдумано": 2,
+        "неверно": 1
+      },
+      "otkuda_vyvod": {
+        "из названия": 2,
+        "—": 5,
+        "не из названия (ассоциация модели)": 1,
+        "EM — из названия; «партнёрство» — не из названия": 1,
+        "energy — из названия; North America — не из названия (биржа XNYS или знания модели)": 1
+      },
+      "isins": [
+        "DE000A0H08S0",
+        "DE000A194DD9",
+        "GRS095001004",
+        "GRS110111002",
+        "GRS142003003",
+        "LU0101692753",
+        "LU0378967565",
+        "LU0670223279",
+        "LU1645386480",
+        "US22539T2179"
+      ]
+    },
+    "other": {
+      "assets": 15,
+      "labels": {
+        "без изменений": 13,
+        "верно": 2
+      },
+      "otkuda_vyvod": {
+        "—": 13,
+        "из названия": 2
+      },
+      "isins": [
+        "DE0007164600",
+        "DE000BAY0017",
+        "GRC1441197B3",
+        "GRS135003002",
+        "GRS147233001",
+        "GRS289103004",
+        "GRS364253005",
+        "GRS407183003",
+        "GRS427003009",
+        "GRS473003002",
+        "GRS506003003",
+        "US298785GS94",
+        "US89236TDR32",
+        "XS1685702794",
+        "XS1791485011"
+      ]
+    }
+  }
+}

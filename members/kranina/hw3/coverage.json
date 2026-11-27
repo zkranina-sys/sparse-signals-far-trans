@@ -1,0 +1,739 @@
+{
+  "note": "LLM counts are a lexical approximation from the frozen rule value list; accuracy is checked manually on 25 assets.",
+  "assets_total": 767,
+  "rule_any_field_assets": 228,
+  "llm_approx_any_field_assets": 424,
+  "by_field": {
+    "sector": {
+      "rule_assets": 20,
+      "llm_approx_assets": 223
+    },
+    "industry": {
+      "rule_assets": 21,
+      "llm_approx_assets": 215
+    },
+    "region": {
+      "rule_assets": 220,
+      "llm_approx_assets": 214
+    }
+  },
+  "rule_assignments": {
+    "AU3CB0228823": [
+      "region=Europe."
+    ],
+    "AU3SG0001985": [
+      "region=Asia-Pacific."
+    ],
+    "AU3SG0002199": [
+      "region=Asia-Pacific."
+    ],
+    "CH0106027144": [
+      "industry=Materials.",
+      "sector=Materials"
+    ],
+    "CH0198251305": [
+      "region=Europe."
+    ],
+    "DE0001102457": [
+      "region=Europe."
+    ],
+    "DE0001135275": [
+      "region=Europe."
+    ],
+    "DE0001141703": [
+      "region=Europe."
+    ],
+    "DE0002635307": [
+      "region=Europe."
+    ],
+    "DE0005933949": [
+      "region=Europe."
+    ],
+    "DE000A0H08Q4": [
+      "industry=Technology",
+      "region=Europe.",
+      "sector=Technology"
+    ],
+    "DE000A0H08R2": [
+      "region=Europe."
+    ],
+    "DE000A0H08S0": [
+      "region=Europe."
+    ],
+    "DE000A0Q4R28": [
+      "region=Europe."
+    ],
+    "ES00000121G2": [
+      "region=Europe."
+    ],
+    "ES0000012A89": [
+      "region=Europe."
+    ],
+    "ES0000012E85": [
+      "region=Europe."
+    ],
+    "ES0000012F43": [
+      "region=Europe."
+    ],
+    "EU000A1G0D39": [
+      "industry=Financials",
+      "region=Europe.",
+      "sector=Financials"
+    ],
+    "EU000A1Z99E3": [
+      "region=Europe."
+    ],
+    "FR0010315770": [
+      "region=Global."
+    ],
+    "FR0010344630": [
+      "region=Europe."
+    ],
+    "FR0010344903": [
+      "industry=Financials",
+      "region=Europe.",
+      "sector=Financials"
+    ],
+    "FR0011020965": [
+      "region=Asia-Pacific."
+    ],
+    "FR0011697010": [
+      "region=Europe."
+    ],
+    "FR0011993179": [
+      "region=Europe."
+    ],
+    "FR0013480613": [
+      "region=Europe."
+    ],
+    "GB00B15KXV33": [
+      "industry=Energy.",
+      "sector=Energy"
+    ],
+    "GB00BN7CG237": [
+      "region=Global."
+    ],
+    "GR0114031561": [
+      "region=Europe."
+    ],
+    "GR0114032577": [
+      "region=Europe."
+    ],
+    "GR0118019679": [
+      "region=Europe."
+    ],
+    "GR0118020685": [
+      "region=Europe."
+    ],
+    "GR0124036709": [
+      "region=Europe."
+    ],
+    "GR0124037715": [
+      "region=Europe."
+    ],
+    "GR0138017836": [
+      "region=Europe."
+    ],
+    "GRC419120AD7": [
+      "region=Europe."
+    ],
+    "GRF000084001": [
+      "industry=Financials.",
+      "sector=Financials"
+    ],
+    "GRF000093002": [
+      "region=Europe."
+    ],
+    "GRS003003035": [
+      "industry=Financials",
+      "region=Europe.",
+      "sector=Financials"
+    ],
+    "GRS004013009": [
+      "region=Europe."
+    ],
+    "GRS083003012": [
+      "region=Europe."
+    ],
+    "GRS260333000": [
+      "region=Europe."
+    ],
+    "GRS277023008": [
+      "region=Europe."
+    ],
+    "GRS281003004": [
+      "region=Europe."
+    ],
+    "GRS344003009": [
+      "region=Europe."
+    ],
+    "GRS344061007": [
+      "region=Europe."
+    ],
+    "GRS395363005": [
+      "region=Europe."
+    ],
+    "GRS477003008": [
+      "region=Europe."
+    ],
+    "GRS491003000": [
+      "industry=Real Estate.",
+      "sector=Real Estate"
+    ],
+    "IE00B1XNHC34": [
+      "industry=Energy",
+      "region=Global.",
+      "sector=Energy"
+    ],
+    "IE00B4K48X80": [
+      "region=Europe."
+    ],
+    "IE00B4L5Y983": [
+      "region=Global."
+    ],
+    "IE00B4L5YX21": [
+      "region=Asia-Pacific."
+    ],
+    "IE00B4S3JD47": [
+      "region=Europe."
+    ],
+    "IE00B52VJ196": [
+      "region=Europe."
+    ],
+    "IE00B7LW6Y90": [
+      "region=Europe."
+    ],
+    "IE00B8FHGS14": [
+      "region=Global."
+    ],
+    "IE00BFNM3J75": [
+      "region=Global."
+    ],
+    "IE00BFZRPZ02": [
+      "region=Europe."
+    ],
+    "IE00BKWQ0C77": [
+      "industry=Consumer",
+      "region=Europe.",
+      "sector=Consumer"
+    ],
+    "IE00BM67HL84": [
+      "region=Global."
+    ],
+    "IE00BM67HM91": [
+      "industry=Energy",
+      "region=Global.",
+      "sector=Energy"
+    ],
+    "IE00BM67HP23": [
+      "industry=Consumer",
+      "region=Global.",
+      "sector=Consumer"
+    ],
+    "IE00BM67HQ30": [
+      "industry=Utilities",
+      "region=Global.",
+      "sector=Utilities"
+    ],
+    "IE00BM67HT60": [
+      "industry=Technology",
+      "region=Global.",
+      "sector=Technology"
+    ],
+    "IE00BP3QZ601": [
+      "region=Global."
+    ],
+    "IE00BP3QZB59": [
+      "region=Global."
+    ],
+    "IE00BYPC1H27": [
+      "region=Asia-Pacific."
+    ],
+    "IE00BYX2JD69": [
+      "region=Global."
+    ],
+    "IE00BZ0PKV06": [
+      "region=Europe."
+    ],
+    "IT0005030504": [
+      "region=Europe."
+    ],
+    "IT0005252520": [
+      "region=Europe."
+    ],
+    "IT0005277444": [
+      "region=Europe."
+    ],
+    "IT0005344335": [
+      "region=Europe."
+    ],
+    "IT0005402117": [
+      "region=Europe."
+    ],
+    "LU0006061385": [
+      "region=Global."
+    ],
+    "LU0006061419": [
+      "region=Global."
+    ],
+    "LU0006391097": [
+      "region=Europe."
+    ],
+    "LU0011850392": [
+      "region=Europe."
+    ],
+    "LU0047713382": [
+      "region=Emerging Markets."
+    ],
+    "LU0050372472": [
+      "region=Global."
+    ],
+    "LU0053903380": [
+      "region=Global."
+    ],
+    "LU0055631609": [
+      "industry=Materials",
+      "region=Global."
+    ],
+    "LU0072462186": [
+      "region=Europe."
+    ],
+    "LU0072462426": [
+      "region=Global."
+    ],
+    "LU0093503497": [
+      "region=Global."
+    ],
+    "LU0093503810": [
+      "region=Global."
+    ],
+    "LU0094557526": [
+      "region=Europe."
+    ],
+    "LU0106244287": [
+      "region=Europe."
+    ],
+    "LU0106258311": [
+      "region=Global."
+    ],
+    "LU0115143082": [
+      "region=Asia-Pacific."
+    ],
+    "LU0118259661": [
+      "region=Global."
+    ],
+    "LU0130799603": [
+      "region=Global."
+    ],
+    "LU0147414022": [
+      "region=Global."
+    ],
+    "LU0152980495": [
+      "region=Global."
+    ],
+    "LU0154234636": [
+      "region=Europe."
+    ],
+    "LU0161942635": [
+      "region=Global."
+    ],
+    "LU0162658883": [
+      "region=Global."
+    ],
+    "LU0164852419": [
+      "region=Asia-Pacific."
+    ],
+    "LU0164858028": [
+      "region=Asia-Pacific."
+    ],
+    "LU0165081950": [
+      "region=Global."
+    ],
+    "LU0165091165": [
+      "region=Global."
+    ],
+    "LU0165130674": [
+      "region=Global."
+    ],
+    "LU0165281881": [
+      "region=Europe."
+    ],
+    "LU0165915058": [
+      "region=Global."
+    ],
+    "LU0171275786": [
+      "region=Emerging Markets."
+    ],
+    "LU0171283459": [
+      "region=Global."
+    ],
+    "LU0171298648": [
+      "region=Global."
+    ],
+    "LU0171304719": [
+      "region=Global."
+    ],
+    "LU0171305526": [
+      "industry=Materials",
+      "region=Global.",
+      "sector=Materials"
+    ],
+    "LU0171307068": [
+      "region=Global."
+    ],
+    "LU0171310443": [
+      "industry=Technology",
+      "region=Global.",
+      "sector=Technology"
+    ],
+    "LU0172394222": [
+      "region=Global."
+    ],
+    "LU0172396516": [
+      "region=Global."
+    ],
+    "LU0172412149": [
+      "region=Global."
+    ],
+    "LU0184696937": [
+      "region=Global."
+    ],
+    "LU0204480833": [
+      "region=Asia-Pacific."
+    ],
+    "LU0205194797": [
+      "region=Global."
+    ],
+    "LU0208853274": [
+      "region=Global."
+    ],
+    "LU0212178916": [
+      "region=Europe."
+    ],
+    "LU0212925753": [
+      "region=Global."
+    ],
+    "LU0248271941": [
+      "region=Asia-Pacific."
+    ],
+    "LU0265268689": [
+      "region=Europe."
+    ],
+    "LU0274221281": [
+      "region=Europe."
+    ],
+    "LU0274704161": [
+      "region=Emerging Markets."
+    ],
+    "LU0280673723": [
+      "region=Emerging Markets."
+    ],
+    "LU0281576909": [
+      "region=Emerging Markets."
+    ],
+    "LU0282880003": [
+      "region=Europe."
+    ],
+    "LU0297943168": [
+      "region=Global."
+    ],
+    "LU0308882355": [
+      "region=Global."
+    ],
+    "LU0316493583": [
+      "region=Asia-Pacific."
+    ],
+    "LU0329630130": [
+      "region=Global."
+    ],
+    "LU0330917880": [
+      "region=Global."
+    ],
+    "LU0378967565": [
+      "region=Global."
+    ],
+    "LU0391944815": [
+      "region=Global."
+    ],
+    "LU0447610683": [
+      "region=Global."
+    ],
+    "LU0447610766": [
+      "region=Global."
+    ],
+    "LU0447611061": [
+      "region=Global."
+    ],
+    "LU0494093205": [
+      "region=Global."
+    ],
+    "LU0545039389": [
+      "region=Global."
+    ],
+    "LU0546265769": [
+      "region=Europe."
+    ],
+    "LU0561744862": [
+      "region=Europe."
+    ],
+    "LU0562822386": [
+      "region=Europe."
+    ],
+    "LU0625451512": [
+      "region=Global."
+    ],
+    "LU0671501392": [
+      "region=Global."
+    ],
+    "LU0671502010": [
+      "region=Global."
+    ],
+    "LU0694810861": [
+      "region=Global."
+    ],
+    "LU0738912566": [
+      "region=Global."
+    ],
+    "LU0757360960": [
+      "region=Global."
+    ],
+    "LU0775052292": [
+      "region=Europe."
+    ],
+    "LU0784383399": [
+      "region=Global."
+    ],
+    "LU0784384876": [
+      "region=Global."
+    ],
+    "LU0794791870": [
+      "region=Global."
+    ],
+    "LU0820561818": [
+      "region=Global."
+    ],
+    "LU0823407779": [
+      "region=Global."
+    ],
+    "LU0823417653": [
+      "region=Global."
+    ],
+    "LU0823417810": [
+      "region=Global."
+    ],
+    "LU0823427611": [
+      "region=Europe."
+    ],
+    "LU0823431720": [
+      "region=Europe."
+    ],
+    "LU0825403933": [
+      "region=Global."
+    ],
+    "LU0830747522": [
+      "region=Global."
+    ],
+    "LU0953782009": [
+      "region=Europe."
+    ],
+    "LU0955662357": [
+      "region=Asia-Pacific."
+    ],
+    "LU0973708182": [
+      "region=Global."
+    ],
+    "LU1003076772": [
+      "region=Europe."
+    ],
+    "LU1081987536": [
+      "region=Emerging Markets."
+    ],
+    "LU1133085917": [
+      "region=Global."
+    ],
+    "LU1467572357": [
+      "region=Global."
+    ],
+    "LU1514167722": [
+      "region=Global."
+    ],
+    "LU1737068558": [
+      "region=Global."
+    ],
+    "LU1775951525": [
+      "region=Asia-Pacific."
+    ],
+    "LU1883311653": [
+      "region=Europe."
+    ],
+    "LU1883321298": [
+      "region=Global."
+    ],
+    "LU1883324391": [
+      "region=Global."
+    ],
+    "NO0010757925": [
+      "region=Europe."
+    ],
+    "NO0010844079": [
+      "region=Europe."
+    ],
+    "PTOTEQOE0015": [
+      "region=Europe."
+    ],
+    "PTOTESOE0013": [
+      "region=Europe."
+    ],
+    "US22539T1833": [
+      "industry=Energy.",
+      "sector=Energy"
+    ],
+    "US22539T2179": [
+      "industry=Energy.",
+      "sector=Energy"
+    ],
+    "US298785GQ39": [
+      "region=Europe."
+    ],
+    "US298785GS94": [
+      "region=Europe."
+    ],
+    "US298785HA77": [
+      "region=Europe."
+    ],
+    "US298785HM16": [
+      "region=Europe."
+    ],
+    "US298785HP47": [
+      "region=Europe."
+    ],
+    "US298785HV15": [
+      "region=Europe."
+    ],
+    "US298785JH03": [
+      "region=Europe."
+    ],
+    "US40428HPR74": [
+      "region=North America."
+    ],
+    "US78467X1090": [
+      "industry=Industrials.",
+      "sector=Industrials"
+    ],
+    "US87264AAU97": [
+      "region=North America."
+    ],
+    "US912810RK60": [
+      "region=North America."
+    ],
+    "US9128286C90": [
+      "region=North America."
+    ],
+    "US912828P873": [
+      "region=North America."
+    ],
+    "US912828U733": [
+      "region=North America."
+    ],
+    "US91831AAC53": [
+      "industry=Healthcare.",
+      "sector=Healthcare"
+    ],
+    "XS0070553820": [
+      "region=Europe."
+    ],
+    "XS0196448129": [
+      "region=Europe."
+    ],
+    "XS0205537581": [
+      "region=South America."
+    ],
+    "XS0505157965": [
+      "region=Europe."
+    ],
+    "XS0832628423": [
+      "region=Europe."
+    ],
+    "XS0989155089": [
+      "region=Europe."
+    ],
+    "XS1068872925": [
+      "region=Europe."
+    ],
+    "XS1085735899": [
+      "region=Europe."
+    ],
+    "XS1207449684": [
+      "region=Europe."
+    ],
+    "XS1208856341": [
+      "region=Europe."
+    ],
+    "XS1227247191": [
+      "region=Europe."
+    ],
+    "XS1260085037": [
+      "region=Europe."
+    ],
+    "XS1280834992": [
+      "region=Europe."
+    ],
+    "XS1288040055": [
+      "region=Europe."
+    ],
+    "XS1314321941": [
+      "region=Europe."
+    ],
+    "XS1328798779": [
+      "region=Europe."
+    ],
+    "XS1361554584": [
+      "region=Europe."
+    ],
+    "XS1394055872": [
+      "region=Europe."
+    ],
+    "XS1428088626": [
+      "region=Europe."
+    ],
+    "XS1503043694": [
+      "region=Europe."
+    ],
+    "XS1612977717": [
+      "region=Europe."
+    ],
+    "XS1637276848": [
+      "region=Europe."
+    ],
+    "XS1683407453": [
+      "region=Europe."
+    ],
+    "XS1791485011": [
+      "region=Europe."
+    ],
+    "XS1909184753": [
+      "region=Europe."
+    ],
+    "XS1980857319": [
+      "region=Europe."
+    ],
+    "XS2028846363": [
+      "region=Europe."
+    ],
+    "XS2055781962": [
+      "region=Europe."
+    ],
+    "XS2060691719": [
+      "region=Europe."
+    ],
+    "XS2105095777": [
+      "region=Europe."
+    ],
+    "XS2237982769": [
+      "region=Europe."
+    ],
+    "XSTITANBOND27": [
+      "region=Global."
+    ]
+  }
+}

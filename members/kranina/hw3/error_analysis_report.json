@@ -1,0 +1,73 @@
+{
+  "cache_records": 1534,
+  "by_mode": {
+    "para": 767,
+    "infer": 767
+  },
+  "invalid_outputs": [],
+  "invalid_count": 0,
+  "json_echoes": [],
+  "json_echo_count": 0,
+  "repairs_or_fallbacks": [],
+  "infer_equals_para_count": 2,
+  "unchanged_assets": [
+    {
+      "asset_id": "XS0809571739",
+      "text": "Transnet is a corporate bond in the railroad transportation industry, listed on XLON."
+    },
+    {
+      "asset_id": "XS0989155089",
+      "text": "Coca-Cola European Partners US is a corporate bond in the food and beverage production industry, listed on XMUN."
+    }
+  ],
+  "coverage": {
+    "note": "LLM counts are a lexical approximation from the frozen rule value list; accuracy is checked manually on 25 assets.",
+    "assets_total": 767,
+    "rule_any_field_assets": 228,
+    "llm_approx_any_field_assets": 424,
+    "by_field": {
+      "sector": {
+        "rule_assets": 20,
+        "llm_approx_assets": 223
+      },
+      "industry": {
+        "rule_assets": 21,
+        "llm_approx_assets": 215
+      },
+      "region": {
+        "rule_assets": 220,
+        "llm_approx_assets": 214
+      }
+    }
+  },
+  "manual_sample_seed": 20261127,
+  "manual_sample_ids": [
+    "DE0007164600",
+    "DE000A0H08S0",
+    "DE000A194DD9",
+    "DE000BAY0017",
+    "GRC1441197B3",
+    "GRS095001004",
+    "GRS110111002",
+    "GRS135003002",
+    "GRS142003003",
+    "GRS147233001",
+    "GRS289103004",
+    "GRS364253005",
+    "GRS407183003",
+    "GRS427003009",
+    "GRS473003002",
+    "GRS506003003",
+    "LU0101692753",
+    "LU0378967565",
+    "LU0670223279",
+    "LU1645386480",
+    "US22539T2179",
+    "US298785GS94",
+    "US89236TDR32",
+    "XS1685702794",
+    "XS1791485011"
+  ],
+  "manual_sample_file": "C:\\Users\\555\\projects\\hw3\\outputs\\error_analysis\\manual_label_25.jsonl",
+  "note": "Labels left blank for the student; no accuracy claim is made by this script."
+}

@@ -1,0 +1,25 @@
+{
+  "note": "Post-hoc additional check invented after seeing the main results; NOT preregistered. Companion to bootstrap.json, which contains the prespecified all / buyers / group cuts.",
+  "difference": "p_infer - p_para, paired by user, nDCG@10",
+  "bootstrap": "2000 resamples of users, percentile 95% interval, fixed seed per cut",
+  "cuts": {
+    "outside_group": {
+      "n": 4763,
+      "mean_difference": -0.00010766539161336002,
+      "ci95": [
+        -0.0006173817116621124,
+        0.00040977746679092655
+      ],
+      "seed": 20261132
+    },
+    "buyers_in_group": {
+      "n": 811,
+      "mean_difference": 0.004979955415571605,
+      "ci95": [
+        0.0007487570661257724,
+        0.009552034776274664
+      ],
+      "seed": 20261133
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "expected_answers": 48,
+  "received_answers": 48,
+  "exact_matches": 48,
+  "mismatches": 0,
+  "protocol_problems": [],
+  "stop_threshold": 5,
+  "stop": false,
+  "new_timing_seconds": {
+    "model_load": 182.09003289499998,
+    "generation": 123.33793976700002
+  },
+  "hw2_generation_seconds_from_manifest": 4162.2979405080005,
+  "note": "Timing of the short check is separate from HW2 generation time; cached HW2 texts remain unchanged in the evaluation."
+}
